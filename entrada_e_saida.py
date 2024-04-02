@@ -10,3 +10,11 @@ def somar_numeros():
     print(f"A soma dos números é: {(numero1+numero2)}")
 
 somar_numeros()
+
+
+def multiplicar_numeros():
+    numero1 = float(input("Digite um número: "))
+    numero2 = float(input("Digite outro número: "))
+    print(f"O produto dos números é: {(numero1*numero2)}")
+
+multiplicar_numeros()
