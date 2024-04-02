@@ -18,3 +18,10 @@ def multiplicar_numeros():
     print(f"O produto dos números é: {(numero1*numero2)}")
 
 multiplicar_numeros()
+
+
+def divisao_por_dois():
+    numero1 = float(input("Digite um número: "))
+    print(f"A divisão do número {numero1} por dois é: {(numero1/2)}")
+
+divisao_por_dois()
